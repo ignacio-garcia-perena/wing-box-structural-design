@@ -1,0 +1,5 @@
+stage,yield_failures,column_failures,divergence_failures,panel_buckling_failures,errors
+1,2169,1202,0,3903,0
+2,2691,1466,0,4140,0
+3,2849,1612,0,4169,0
+4,2853,1645,0,4219,0

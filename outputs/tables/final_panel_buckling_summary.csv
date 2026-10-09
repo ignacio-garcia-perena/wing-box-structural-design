@@ -1,0 +1,20 @@
+metric,value,equation_or_definition,controlling_bay,bay_start_in,bay_end_in,controlling_case,controlling_panel,mode,recovery_method,panel_idealisation_method
+Kc,6,compression coefficient,NaN,NaN,NaN,,,,bay_averaged_panel_buckling_recovery_with_curvature_correction,modified_megson_panel_idealisation
+Kb,32,bending coefficient,NaN,NaN,NaN,,,,bay_averaged_panel_buckling_recovery_with_curvature_correction,modified_megson_panel_idealisation
+Ks,8,shear coefficient,NaN,NaN,NaN,,,,bay_averaged_panel_buckling_recovery_with_curvature_correction,modified_megson_panel_idealisation
+curved_correction_enabled,true,cylindrical curvature compression correction enabled,NaN,NaN,NaN,,,,bay_averaged_panel_buckling_recovery_with_curvature_correction,modified_megson_panel_idealisation
+curved_correction_method,cylindrical_curvature_compression_correction,sigma_cr_c_effective = sigma_cr_c_flat + sigma_cr_cylinder,NaN,NaN,NaN,,,,bay_averaged_panel_buckling_recovery_with_curvature_correction,modified_megson_panel_idealisation
+curved_correction_apply_to,compression_only,curved correction applies to compression Rc only,NaN,NaN,NaN,,,,bay_averaged_panel_buckling_recovery_with_curvature_correction,modified_megson_panel_idealisation
+curved_valid_range_applications,215,500 < R/t < 3000 and 0.1 < L/R < 2.5,NaN,NaN,NaN,,,,bay_averaged_panel_buckling_recovery_with_curvature_correction,modified_megson_panel_idealisation
+curved_high_R_over_t_applications,216,R/t >= 3000,NaN,NaN,NaN,,,,bay_averaged_panel_buckling_recovery_with_curvature_correction,modified_megson_panel_idealisation
+curved_flat_only_outside_validity,49,flat compression critical stress retained outside curved-panel validity range,NaN,NaN,NaN,,,,bay_averaged_panel_buckling_recovery_with_curvature_correction,modified_megson_panel_idealisation
+curved_not_curved_panel_count,24,spar webs/non-airfoil panels,NaN,NaN,NaN,,,,bay_averaged_panel_buckling_recovery_with_curvature_correction,modified_megson_panel_idealisation
+curved_invalid_geometry_fallback_count,0,curved panels with invalid radius/slope geometry,NaN,NaN,NaN,,,,bay_averaged_panel_buckling_recovery_with_curvature_correction,modified_megson_panel_idealisation
+curved_panel_instances,480,curved panel instances over all bays,NaN,NaN,NaN,,,,bay_averaged_panel_buckling_recovery_with_curvature_correction,modified_megson_panel_idealisation
+curved_applied_instances,431,curved correction applied instances over all bays,NaN,NaN,NaN,,,,bay_averaged_panel_buckling_recovery_with_curvature_correction,modified_megson_panel_idealisation
+max_Rc,0.916710087656,Rc = sigma_comp_avg / sigma_cr_c_effective,1,0,18,NG_VC,lowerNose_01,,bay_averaged_panel_buckling_recovery_with_curvature_correction,modified_megson_panel_idealisation
+max_Rb,0.192895975081,Rb = sigma_comp_avg / sigma_cr_b,1,0,18,NG_VC,lowerNose_01,,bay_averaged_panel_buckling_recovery_with_curvature_correction,modified_megson_panel_idealisation
+max_Rs,0.339310945379,Rs = abs(q_avg/t) / tau_cr_s,1,0,18,PLAA,lowerNose_04,,bay_averaged_panel_buckling_recovery_with_curvature_correction,modified_megson_panel_idealisation
+max_R_SC,0.981538782715,R_SC = Rs^1.5 + Rc,1,0,18,NG_VC,lowerNose_01,global diagnostic,bay_averaged_panel_buckling_recovery_with_curvature_correction,modified_megson_panel_idealisation
+max_R_BS,0.12343349327,R_BS = Rb^2 + Rs^2,1,0,18,PLAA,lowerNose_04,global diagnostic,bay_averaged_panel_buckling_recovery_with_curvature_correction,modified_megson_panel_idealisation
+max_active_combined_ratio,0.33721930366,mapped active S+C or B+S combined panel ratio,1,0,18,PHAA,top_02,S+C,bay_averaged_panel_buckling_recovery_with_curvature_correction,modified_megson_panel_idealisation

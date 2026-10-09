@@ -1,0 +1,8 @@
+component,semispan_lb,fullspan_lb,notes
+skins_webs,112.998819598367,225.997639196734,physical skin and web panels
+spar_caps,19.77984,39.55968,A3.13 T-section spar caps
+stringers,81.59184,163.18368,A3.10 Z-section stringers
+ribs,10.3533255,20.706651,geometric NACA 2412 rib weight model
+total_excluding_ribs_misc,214.370499598367,428.740999196734,skins/webs plus spar caps plus stringers
+total_including_ribs_excluding_misc,224.723825098367,449.447650196734,reported final analysis weight
+excluded_items,NaN,NaN,fasteners joints doublers paint fuel access panels manufacturing allowances and miscellaneous items excluded

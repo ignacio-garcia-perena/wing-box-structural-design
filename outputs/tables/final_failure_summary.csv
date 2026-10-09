@@ -1,0 +1,11 @@
+metric,value,passCriteria,pass,controlStation,controlBay,controlBayStart_in,controlBayEnd_in,controlCase,controlItem,controlMode,recoveryMethod,idealisationMethod
+yield_ratio,0.974441978866,<= 1,true,1,NaN,NaN,NaN,PHAA,bottom_01,,bay_averaged_panel_buckling_recovery_with_curvature_correction,modified_megson_panel_idealisation
+column_buckling_ratio,0.864336371517,<= 1,true,1,NaN,NaN,NaN,PHAA,top_03,,bay_averaged_panel_buckling_recovery_with_curvature_correction,modified_megson_panel_idealisation
+divergence_ratio,4.87124609394,> 1,true,NaN,NaN,NaN,NaN,,,,bay_averaged_panel_buckling_recovery_with_curvature_correction,modified_megson_panel_idealisation
+panel_Rc,0.916710087656,<= 1,true,NaN,1,0,18,NG_VC,lowerNose_01,,bay_averaged_panel_buckling_recovery_with_curvature_correction,modified_megson_panel_idealisation
+panel_Rb,0.192895975081,<= 1,true,NaN,1,0,18,NG_VC,lowerNose_01,,bay_averaged_panel_buckling_recovery_with_curvature_correction,modified_megson_panel_idealisation
+panel_Rs,0.339310945379,<= 1,true,NaN,1,0,18,PLAA,lowerNose_04,,bay_averaged_panel_buckling_recovery_with_curvature_correction,modified_megson_panel_idealisation
+panel_R_SC_global,0.981538782715,diagnostic only,NaN,NaN,1,0,18,NG_VC,lowerNose_01,global diagnostic,bay_averaged_panel_buckling_recovery_with_curvature_correction,modified_megson_panel_idealisation
+panel_R_BS_global,0.12343349327,diagnostic only,NaN,NaN,1,0,18,PLAA,lowerNose_04,global diagnostic,bay_averaged_panel_buckling_recovery_with_curvature_correction,modified_megson_panel_idealisation
+panel_active_combined_ratio,0.33721930366,<= 1,true,NaN,1,0,18,PHAA,top_02,S+C,bay_averaged_panel_buckling_recovery_with_curvature_correction,modified_megson_panel_idealisation
+overall_final_analysis_status,1,true,true,NaN,NaN,NaN,NaN,,,,bay_averaged_panel_buckling_recovery_with_curvature_correction,modified_megson_panel_idealisation

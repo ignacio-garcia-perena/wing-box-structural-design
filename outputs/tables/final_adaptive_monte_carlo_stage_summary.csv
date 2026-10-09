@@ -1,0 +1,5 @@
+stage,n_requested,n_designs,n_passing,pass_rate,n_errors,n_yield_fail,n_column_buckling_fail,n_divergence_fail,n_panel_buckling_fail,best_weight_including_ribs_excluding_misc_lb,best_index,best_frontSpar_xc,best_rearSpar_xc,best_stringer_section_key,best_spar_cap_sec_no,best_main_skin_t,best_noseSkin_t,best_ribSpacing_in,elite_count,rngSeed
+1,5000,5000,876,0.1752,0,2169,1202,0,3903,471.575409318971,3448,0.18,0.66,A3_10_Z_17,4,0.063,0.056,14,88,1712762015
+2,5000,5000,620,0.124,0,2691,1466,0,4140,449.447650196734,1864,0.2,0.6,A3_10_Z_25,7,0.056,0.05,18,62,1712849851
+3,5000,5000,569,0.1138,0,2849,1612,0,4169,460.166242443412,1159,0.22,0.6,A3_10_Z_1,25,0.042,0.056,12,57,1712939705
+4,5000,5000,531,0.1062,0,2853,1645,0,4219,458.731646764922,3046,0.16,0.6,A3_10_Z_10,10,0.063,0.063,12,54,1713266909

@@ -1,0 +1,8 @@
+limitation,status,detail
+crippling,not implemented,"Crippling is outside the project scope and excluded from numerical pass/fail."
+detailed_rib_stress_buckling,not implemented,"Ribs are included in weight and bay spacing but detailed rib stress and buckling are not checked."
+fasteners_joints_doublers_misc,excluded from weight and sizing,"Fasteners joints doublers paint fuel access panels manufacturing allowances and miscellaneous items are excluded."
+panel_coefficients,estimated high-aspect-ratio constants,"Kc Kb and Ks are constant project screening values rather than detailed boundary-condition coefficients."
+postbuckling_tension_field,not implemented,"No postbuckling or tension-field behavior is credited."
+manufacturing_detail_sizing,not implemented,"Manufacturing detail sizing is outside the final analysis model."
+certification_final_margins,not implemented,"Current status is final numerical-check screening, not certification substantiation."
